@@ -2,28 +2,32 @@
 
 A collection of **Data Structures and Algorithms problems solved in C++**, organized by concepts and problem-solving patterns.
 
-This repository is a record of my DSA practice, where I solve problems from different sources to improve my **logic, problem-solving skills, and understanding of core DSA concepts** — beyond just LeetCode.
+This repository contains problems inspired by different sources, along with **similar and self-created variations of existing problems**. The goal is to understand the underlying concepts and develop strong problem-solving skills rather than simply memorizing solutions.
 
 ---
 
 ## 📚 Topics Covered
 
+The repository is organized into different DSA concepts and problem-solving techniques:
+
 * Arrays
 * Strings
 * Hashing
+* Mathematics & Number Manipulation
 * Two Pointers
 * Sliding Window
+* Prefix Sum
 * Sorting
 * Binary Search
 * Recursion
+* Backtracking
 * Linked Lists
 * Stacks
 * Queues
 * Trees
 * Graphs
-* Dynamic Programming
 * Greedy Algorithms
-* Backtracking
+* Dynamic Programming
 
 ---
 
@@ -35,30 +39,111 @@ DSA-Problem-Solving/
 ├── README.md
 │
 ├── 01-Arrays/
+│
 ├── 02-Strings/
+│
 ├── 03-Hashing/
-├── 04-Two-Pointers/
-├── 05-Sliding-Window/
-├── 06-Sorting/
-├── 07-Binary-Search/
-├── 08-Recursion/
-├── 09-Linked-List/
-├── 10-Stack/
-├── 11-Queue/
-├── 12-Trees/
-├── 13-Graphs/
-├── 14-Greedy/
-├── 15-Backtracking/
-└── 16-Dynamic-Programming/
+│
+├── 04-Mathematics/
+│
+├── 05-Two-Pointers/
+│
+├── 06-Sliding-Window/
+│
+├── 07-Prefix-Sum/
+│
+├── 08-Sorting/
+│
+├── 09-Binary-Search/
+│
+├── 10-Recursion/
+│
+├── 11-Backtracking/
+│
+├── 12-Linked-List/
+│
+├── 13-Stack/
+│
+├── 14-Queue/
+│
+├── 15-Trees/
+│
+├── 16-Graphs/
+│
+├── 17-Greedy/
+│
+└── 18-Dynamic-Programming/
 ```
 
 Each problem is stored as a separate `.cpp` file inside the relevant topic folder.
 
 ---
 
+## 🧩 Problem Organization
+
+Problems are categorized based on the **main concept or technique required to solve them**.
+
+For example:
+
+### Mathematics
+
+Problems involving:
+
+* Digit manipulation
+* Number reversal
+* Prime numbers
+* GCD & LCM
+* Factors
+* Modular arithmetic
+* Integer overflow
+* Number properties
+
+```text
+04-Mathematics/
+│
+├── reverse_digits.cpp
+├── check_prime.cpp
+├── gcd_of_two_numbers.cpp
+└── ...
+```
+
+### Arrays
+
+Problems involving:
+
+* Array traversal
+* Searching
+* Frequency
+* In-place modifications
+* Subarrays
+* Array manipulation
+
+```text
+01-Arrays/
+│
+├── second_largest.cpp
+├── move_zeros.cpp
+├── remove_duplicates.cpp
+└── ...
+```
+
+### Two Pointers
+
+Problems where maintaining two positions/pointers helps reduce unnecessary work.
+
+```text
+05-Two-Pointers/
+│
+├── pair_with_given_sum.cpp
+├── remove_duplicates.cpp
+└── ...
+```
+
+---
+
 ## 📝 Problem Format
 
-Each solution follows a consistent format:
+Each solution follows a consistent structure:
 
 ```cpp
 /*
@@ -83,7 +168,22 @@ Key Idea:
 */
 ```
 
-This makes the repository useful not only for solving problems but also for **revision and future reference**.
+The aim is to make every solution understandable even when revisiting it later.
+
+---
+
+## 🔄 Problem Sources
+
+Problems may come from:
+
+* Original problem statements
+* Variations of known DSA problems
+* Interview-style questions
+* Competitive programming problems
+* Practice questions
+* Self-created problems
+
+The repository is **not limited to LeetCode or any single platform**.
 
 ---
 
@@ -91,10 +191,12 @@ This makes the repository useful not only for solving problems but also for **re
 
 * Build strong DSA fundamentals
 * Improve logical and analytical thinking
-* Understand common problem-solving patterns
-* Practice writing efficient C++ solutions
-* Analyze time and space complexity
-* Learn from mistakes and improve problem-solving approaches
+* Recognize common problem-solving patterns
+* Learn how to approach unfamiliar problems
+* Write efficient C++ solutions
+* Understand time and space complexity
+* Practice handling edge cases
+* Improve problem-solving through variations of familiar problems
 * Prepare for coding interviews and competitive programming
 
 ---
@@ -107,14 +209,36 @@ All solutions in this repository are written in:
 
 ---
 
-## 🚀 Progress
+## 📈 Progress
 
-This repository will be continuously updated as I solve more problems and learn new DSA concepts.
+This repository will be continuously updated as I solve more problems and learn new concepts.
 
-> **Consistency over quantity. Understand the problem, find the pattern, and then write the code.**
+The focus is not just on the number of problems solved, but on **understanding why a solution works and how the same idea can be applied to different problems**.
 
 ---
 
-## 📌 Note
+## 🚀 Learning Approach
 
-The problems in this repository are collected from various sources and are **not limited to LeetCode**. The purpose of this repository is to document my learning journey and strengthen my overall problem-solving skills.
+For each problem, the goal is to:
+
+```text
+Understand the Problem
+        ↓
+Identify the Pattern / Concept
+        ↓
+Think of a Brute Force Approach
+        ↓
+Optimize the Approach
+        ↓
+Analyze Time & Space Complexity
+        ↓
+Implement in C++
+        ↓
+Test Edge Cases
+        ↓
+Learn from the Solution
+```
+
+---
+
+> **Don't just solve problems. Learn the patterns behind them.**
