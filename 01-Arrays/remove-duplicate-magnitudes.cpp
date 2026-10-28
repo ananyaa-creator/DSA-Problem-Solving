@@ -43,23 +43,18 @@ Space Complexity: O(1)
 
 class Solution {
 public:
-    int removeDuplicateMagnitudes(vector<int>& readings) {
+    int compressReadings(vector<int>& readings) {
         int n = readings.size();
+        int i = 0;
 
-        if (n == 0) {
-            return 0;
-        }
-
-        int write = 1;
-
-        for (int read = 1; read < n; read++) {
-            if (abs(readings[read]) != abs(readings[write - 1])) {
-                readings[write] = readings[read];
-                write++;
+        for (int j = 1; j < n; j++) {
+            if (abs(readings[i]) != abs(readings[j])) {
+                readings[i+1] = readings[j];
+                i++;
             }
         }
 
-        return write;
+        return i+1;
     }
 };
 
